@@ -25,7 +25,11 @@ Creating batch-images.tar.gz with 2 images
 
 **batch load docker images**
 
+Load,tag and upload to registry.
+
 ```shell
 $ sh ./docker/load-batch.sh -l batch-images.txt -i batch-images.tar.gz -r localhost:5000
 ```
+
+this script will load images from ```batch-images.tar.gz``` and tag all images with registry ```localhost:5000```
 
