@@ -28,3 +28,4 @@ Creating batch-images.tar.gz with 2 images
 ```shell
 $ sh ./docker/load-batch.sh -l batch-images.txt -i batch-images.tar.gz -r localhost:5000
 ```
+
